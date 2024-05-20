@@ -1,0 +1,18 @@
+body, .country-emoji {
+  font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', 'Android Emoji', 'Segoe UI Symbol', 'EmojiSymbols', sans-serif;
+}
+
+.country-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+}
+
+.country-emoji {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 10px;
+}
