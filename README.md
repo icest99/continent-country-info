@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Countries App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches data about countries from the [Countries GraphQL API](https://countries.trevorblades.com/) and displays it grouped by continent.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches country data from the Countries GraphQL API.
+- Groups countries by continent and displays them.
+- Displays country name, flag emoji.
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Before running this project locally, make sure you have the following installed:
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js
+- npm (Node Package Manager) or yarn
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository: `git clone <repository-url>`
+2. install dependencies: `npm i`
+3. run the app: `npm run dev`
+
